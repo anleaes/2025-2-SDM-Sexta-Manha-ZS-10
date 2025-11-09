@@ -1,0 +1,75 @@
+@startuml
+class Hospedagem {
+  -nome : Char
+  -descricao : Char
+  -preco_diaria : Float
+  -disponivel : Boolean
+  -localizacao : Localizacao
+  -categoria : Categoria
+  -anfitriao : Anfitriao
+  +filtrarPorCriterio() : List<Hospedagem>
+}
+
+class Categoria {
+  -nome : Char
+  -descricao : Char
+  -ativo : Boolean
+  -limite_hospedes : Integer
+}
+
+class Cliente {
+  -nome : Char
+  -email : Char
+  -telefone : Char
+  -data_cadastro : Date
+}
+
+class Reserva {
+  -data_checkin : Date
+  -data_checkout : Date
+  -quantidade_hospedes : Integer
+  -valor_total : Float
+  -pagamento : Pagamento
+  -cliente : Cliente
+  -hospedagem : Hospedagem
+}
+
+class Avaliacao {
+  -nota : Integer
+  -comentario : Char
+  -data_avaliacao : Date
+  -publicada : Boolean
+  -autor : Cliente
+  -hospedagem : Hospedagem
+}
+
+class Pagamento {
+  -valor : Float
+  -metodo_pagamento : Char
+  -status_pagamento : Char
+  -data_pagamento : Date
+}
+
+class Localizacao {
+  -cidade : Char
+  -estado : Char
+  -pais : Char
+  -cep : Char
+}
+
+class Anfitriao {
+  -nome : Char
+  -email : Char
+  -telefone : Char
+  -avaliacao_media : Float
+}
+
+Categoria "1" *--> "N" Hospedagem
+Localizacao "1" *--> "N" Hospedagem
+Anfitriao "1" *--> "N" Hospedagem
+Cliente "1" *--> "N" Reserva
+Cliente "1" *--> "N" Avaliacao
+Hospedagem "1" *--> "N" Reserva
+Hospedagem "1" *--> "N" Avaliacao
+Reserva "N" <--* "N" Pagamento
+@enduml
