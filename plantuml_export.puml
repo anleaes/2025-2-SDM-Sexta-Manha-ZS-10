@@ -64,12 +64,18 @@ class Anfitriao {
   -avaliacao_media : Float
 }
 
+class PagamentoReserva{
+pagamento: Pagamento
+reserva: Reserva
+}
+
 Categoria "1" *--> "N" Hospedagem
 Localizacao "1" *--> "N" Hospedagem
 Anfitriao "1" *--> "N" Hospedagem
-Cliente "1" *--> "N" Reserva
-Cliente "1" *--> "N" Avaliacao
+Cliente "1" *-up-> "N" Reserva
+Cliente "1" *-up-> "N" Avaliacao
 Hospedagem "1" *--> "N" Reserva
 Hospedagem "1" *--> "N" Avaliacao
-Reserva "N" <--* "N" Pagamento
+Reserva "N" *--> "N" PagamentoReserva
+Pagamento "N" *--> "N" PagamentoReserva
 @enduml
