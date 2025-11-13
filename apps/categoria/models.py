@@ -6,3 +6,11 @@ class Categoria(models.Model):
     descricao = models.TextField('Descrição', max_length=100)
     ativo = models.BooleanField('Ativo', default=True)
     limite_hospedes = models.IntegerField('Limite de Hóspedes', default=1)
+
+    class Meta:
+        verbose_name = 'Categoria'
+        verbose_name_plural = 'Categorias'
+        ordering = ['id']
+
+    def __str__(self):
+        return self.nome
