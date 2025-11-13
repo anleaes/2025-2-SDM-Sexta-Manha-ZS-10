@@ -1,3 +1,5 @@
 hospedagemapp/__pycache__/*
 /apps/hospedagem/__pycache__/*
 /apps/hospedagem/migrations/*
+/apps/categoria/__pycache__/*
+/apps/categoria/migrations/*
