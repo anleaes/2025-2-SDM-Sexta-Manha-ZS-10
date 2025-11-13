@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+# Modelo criado conforme o diagrama de classes
 class Hospedagem(models.Model):
     nome = models.CharField('Nome', max_length=50)
     descricao = models.TextField('Descrição', max_length=100)
