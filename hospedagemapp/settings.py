@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'hospedagem.apps.HospedagemConfig',
     'categoria.apps.CategoriaConfig',
+    'localizacao.apps.LocalizacaoConfig',
 ]
 
 MIDDLEWARE = [
