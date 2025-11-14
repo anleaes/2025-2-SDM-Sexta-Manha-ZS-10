@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'hospedagem.apps.HospedagemConfig',
     'categoria.apps.CategoriaConfig',
     'localizacao.apps.LocalizacaoConfig',
+    'anfitriao.apps.AnfitriaoConfig',
 ]
 
 MIDDLEWARE = [
