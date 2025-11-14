@@ -5,3 +5,5 @@ hospedagemapp/__pycache__/*
 /apps/categoria/migrations/*
 /apps/localizacao/__pycache__/*
 /apps/localizacao/migrations/*
+/apps/anfitriao/__pycache__/*
+/apps/anfitriao/migrations/*
