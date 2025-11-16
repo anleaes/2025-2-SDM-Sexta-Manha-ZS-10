@@ -1,7 +1,7 @@
 @startuml
 class Hospedagem {
   -nome : Char
-  -descricao : Char
+  -descricao : String
   -preco_diaria : Float
   -disponivel : Boolean
   -localizacao : Localizacao
@@ -12,7 +12,7 @@ class Hospedagem {
 
 class Categoria {
   -nome : Char
-  -descricao : Char
+  -descricao : String
   -ativo : Boolean
   -limite_hospedes : Integer
 }
@@ -36,7 +36,7 @@ class Reserva {
 
 class Avaliacao {
   -nota : Integer
-  -comentario : Char
+  -comentario : String
   -data_avaliacao : Date
   -publicada : Boolean
   -autor : Cliente
