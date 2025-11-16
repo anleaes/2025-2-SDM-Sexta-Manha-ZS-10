@@ -3,3 +3,6 @@ from .models import Avaliacao
 from .serializer import AvaliacaoSerializer
 
 # Create your views here.
+class AvaliacaoViewSet(viewsets.ModelViewSet):
+    queryset = Avaliacao.objects.all()
+    serializer_class = AvaliacaoSerializer
