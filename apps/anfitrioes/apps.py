@@ -1,7 +1,7 @@
 from django.apps import AppConfig
 
 
-class AnfitriaoConfig(AppConfig):
+class AnfitrioesConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'anfitriao'
-    verbose_name = 'Anfitrião'
+    name = 'anfitrioes'
+    verbose_name = 'Anfitriões'
