@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'hospedagem.apps.HospedagemConfig',
     'categorias.apps.CategoriasConfig',
-    'localizacao.apps.LocalizacaoConfig',
+    'localizacoes.apps.LocalizacoesConfig',
     'anfitrioes.apps.AnfitrioesConfig',
 ]
 
