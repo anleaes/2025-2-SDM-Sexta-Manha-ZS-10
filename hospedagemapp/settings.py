@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'anfitrioes.apps.AnfitrioesConfig',
     'clientes.apps.ClientesConfig',
     'pagamentos.apps.PagamentosConfig',
+    'avaliacoes.apps.AvaliacoesConfig',
 ]
 
 MIDDLEWARE = [
