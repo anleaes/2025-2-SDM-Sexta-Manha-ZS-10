@@ -22,4 +22,5 @@ urlpatterns = [
     path('categorias/', include('categorias.urls', namespace='categorias')),
     path('localizacoes/', include('localizacoes.urls', namespace='localizacoes')),
     path('anfitrioes/', include('anfitrioes.urls', namespace='anfitrioes')),
+    path('clientes/', include('clientes.urls', namespace='clientes')),
 ]
