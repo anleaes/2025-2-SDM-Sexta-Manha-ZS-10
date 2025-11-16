@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'hospedagem.apps.HospedagemConfig',
-    'categoria.apps.CategoriaConfig',
+    'categorias.apps.CategoriasConfig',
     'localizacao.apps.LocalizacaoConfig',
     'anfitrioes.apps.AnfitrioesConfig',
 ]
