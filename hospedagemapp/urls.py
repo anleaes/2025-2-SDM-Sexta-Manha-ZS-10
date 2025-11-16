@@ -23,4 +23,5 @@ urlpatterns = [
     path('localizacoes/', include('localizacoes.urls', namespace='localizacoes')),
     path('anfitrioes/', include('anfitrioes.urls', namespace='anfitrioes')),
     path('clientes/', include('clientes.urls', namespace='clientes')),
+    path('pagamentos/', include('pagamentos.urls', namespace='pagamentos')),
 ]
