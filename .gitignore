@@ -1,8 +1,8 @@
 hospedagemapp/__pycache__/*
 /apps/hospedagem/__pycache__/*
 /apps/hospedagem/migrations/*
-/apps/categoria/__pycache__/*
-/apps/categoria/migrations/*
+/apps/categorias/__pycache__/*
+/apps/categorias/migrations/*
 /apps/localizacao/__pycache__/*
 /apps/localizacao/migrations/*
 /apps/anfitrioes/__pycache__/*
