@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'categorias.apps.CategoriasConfig',
     'localizacoes.apps.LocalizacoesConfig',
     'anfitrioes.apps.AnfitrioesConfig',
+    'clientes.apps.ClientesConfig',
 ]
 
 MIDDLEWARE = [
