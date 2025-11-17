@@ -1,6 +1,6 @@
 from django.db import models
 from clientes.models import Cliente
-from hospedagem.models import Hospedagem
+from hospedagens.models import Hospedagem
 
 # Create your models here.
 class Avaliacao(models.Model):

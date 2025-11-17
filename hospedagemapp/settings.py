@@ -42,13 +42,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'hospedagem.apps.HospedagemConfig',
     'categorias.apps.CategoriasConfig',
     'localizacoes.apps.LocalizacoesConfig',
     'anfitrioes.apps.AnfitrioesConfig',
     'clientes.apps.ClientesConfig',
     'pagamentos.apps.PagamentosConfig',
     'avaliacoes.apps.AvaliacoesConfig',
+    'hospedagens.apps.HospedagensConfig',
 ]
 
 MIDDLEWARE = [
