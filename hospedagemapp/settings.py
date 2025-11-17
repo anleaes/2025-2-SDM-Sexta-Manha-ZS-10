@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'pagamentos.apps.PagamentosConfig',
     'avaliacoes.apps.AvaliacoesConfig',
     'hospedagens.apps.HospedagensConfig',
+    'reservas.apps.ReservasConfig',
 ]
 
 MIDDLEWARE = [
