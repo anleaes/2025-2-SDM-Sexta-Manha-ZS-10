@@ -1,5 +1,5 @@
 from django.db import models
-from apps.pagamentos.models import Pagamento
+from pagamentos.models import Pagamento
 from clientes.models import Cliente
 from hospedagens.models import Hospedagem
 
