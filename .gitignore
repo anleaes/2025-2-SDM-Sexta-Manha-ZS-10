@@ -11,3 +11,5 @@ hospedagemapp/__pycache__/*
 /apps/clientes/migrations/*
 /apps/pagamentos/__pycache__/*
 /apps/pagamentos/migrations/*
+/apps/reservas/__pycache__/*
+/apps/reservas/migrations/*
