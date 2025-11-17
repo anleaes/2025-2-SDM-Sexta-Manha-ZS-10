@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class HospedagemConfig(AppConfig):
+class HospedagensConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'hospedagem'
+    name = 'hospedagens'
