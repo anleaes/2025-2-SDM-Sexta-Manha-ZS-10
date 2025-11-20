@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'avaliacoes.apps.AvaliacoesConfig',
     'hospedagens.apps.HospedagensConfig',
     'reservas.apps.ReservasConfig',
+    'django_filters',
 ]
 
 MIDDLEWARE = [
