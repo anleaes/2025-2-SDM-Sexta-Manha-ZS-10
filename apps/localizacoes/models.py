@@ -5,7 +5,7 @@ class Localizacao(models.Model):
     cidade = models.CharField('Cidade', max_length=50)
     estado = models.CharField('Estado', max_length=50)
     pais = models.CharField('País', max_length=50)
-    cep = models.CharField('CEP', max_length=20)
+    regiao = models.CharField('Região', max_length=50)
     
     class Meta:
         verbose_name = 'Localização'
