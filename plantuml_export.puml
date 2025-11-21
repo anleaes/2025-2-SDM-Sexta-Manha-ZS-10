@@ -54,7 +54,7 @@ class Localizacao {
   -cidade : Char
   -estado : Char
   -pais : Char
-  -cep : Char
+  -regiao : Char
 }
 
 class Anfitriao {
